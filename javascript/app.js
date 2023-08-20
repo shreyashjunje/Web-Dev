@@ -46,7 +46,33 @@
 //     console.log("bad");
 // }
 
-let n=5;
-for(let i=0;i<5;i++){
-    console.log(i);
+
+//create a function to roll a dice
+function rolladice(){
+    const random = Math.floor(Math.random()*6)+1;
+
+    console.log(random);
+
 }
+
+//print multiplication table of a nnumber 
+function table(n){
+    let e=n*10;
+    for(let i=n;i<=e;i=i+n){
+        console.log(i);
+    }
+}
+
+//counbt numvber from 1 to n
+function count(n){
+    let count=0;
+    for(let i=1;i<=n;i++){
+        count=count+i;
+        
+    }
+    return count;
+}
+
+
+// rolladice();
+// table(5);
