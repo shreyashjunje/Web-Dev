@@ -47,32 +47,66 @@
 // }
 
 
-//create a function to roll a dice
-function rolladice(){
-    const random = Math.floor(Math.random()*6)+1;
+// //create a function to roll a dice
+// function rolladice(){
+//     const random = Math.floor(Math.random()*6)+1;
 
-    console.log(random);
+//     console.log(random);
 
-}
+// }
 
-//print multiplication table of a nnumber 
-function table(n){
-    let e=n*10;
-    for(let i=n;i<=e;i=i+n){
-        console.log(i);
-    }
-}
+// //print multiplication table of a nnumber 
+// function table(n){
+//     let e=n*10;
+//     for(let i=n;i<=e;i=i+n){
+//         console.log(i);
+//     }
+// }
 
-//counbt numvber from 1 to n
-function count(n){
-    let count=0;
-    for(let i=1;i<=n;i++){
-        count=count+i;
+// //counbt numvber from 1 to n
+// function count(n){
+//     let count=0;
+//     for(let i=1;i<=n;i++){
+//         count=count+i;
         
-    }
-    return count;
-}
+//     }
+//     return count;
+// }
 
 
 // rolladice();
 // table(5);
+
+
+// const student={
+//     name: "yash",
+//     eng: 90,
+//     math: 78,
+//     phy: 37,
+//     getavg(){
+//         console.log(this);
+//         let avg = (this.eng + this.math + this.phy)/3;
+//         console.log(avg);
+//     }
+
+// }
+//  function getavg(){
+//     console.log(this);
+    
+    
+// }
+
+console.log("hey guys");
+// setTimeout(() =>{
+//     console.log("channel");
+// },9000);
+
+let id = setInterval(() => {
+    console.log("hi");
+},2000);
+
+let id2 = setInterval(() => {
+    console.log("guys");
+},2000);
+
+
