@@ -1,37 +1,37 @@
-// let a=5;
-// let b=6;
-// let c=7;
+let a=5;
+let b=6;
+let c=7;
 
-// if(a>=b && a>=c){
-//     console.log(a," is greater number");
-// }else if(b>=a && b>=c){
-//     console.log(b," is greater number");
-// }else{
-//     console.log(c,` is greater number`);
-// }
+if(a>=b && a>=c){
+    console.log(a," is greater number");
+}else if(b>=a && b>=c){
+    console.log(b," is greater number");
+}else{
+    console.log(c,` is greater number`);
+}
 
 
-// let str = "apple";
-// if((str[0]=='a' || str[0]=='A') && str.length > 5){
-//     console.log("golden string");
-// }else{
-//     console.log("not a golden string");
-// }
+let str = "apple";
+if((str[0]=='a' || str[0]=='A') && str.length > 5){
+    console.log("golden string");
+}else{
+    console.log("not a golden string");
+}
 
-// let month=2;
-// switch(month){
-//     case 1: 
-//         console.log("jan","feb","mar");
-//         break;
-//     case 2:
-//         console.log("april","may","june");
-//         break;
-//     case 3:
-//         console.log("july","aug","sep");
-//         break;
-//     case 4 :
-//         console.log("oct","nov","dec");
-//         break;
+let month=2;
+switch(month){
+    case 1: 
+        console.log("jan","feb","mar");
+        break;
+    case 2:
+        console.log("april","may","june");
+        break;
+    case 3:
+        console.log("july","aug","sep");
+        break;
+    case 4 :
+        console.log("oct","nov","dec");
+        break;
 
 // }
 
@@ -96,17 +96,17 @@
     
 // }
 
-console.log("hey guys");
-// setTimeout(() =>{
-//     console.log("channel");
-// },9000);
+// console.log("hey guys");
+// // setTimeout(() =>{
+// //     console.log("channel");
+// // },9000);
 
-let id = setInterval(() => {
-    console.log("hi");
-},2000);
+// let id = setInterval(() => {
+//     console.log("hi");
+// },2000);
 
-let id2 = setInterval(() => {
-    console.log("guys");
-},2000);
+// let id2 = setInterval(() => {
+//     console.log("guys");
+// },2000);
 
 
