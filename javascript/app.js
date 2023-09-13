@@ -47,21 +47,22 @@ switch(month){
 // }
 
 
-// //create a function to roll a dice
-// function rolladice(){
-//     const random = Math.floor(Math.random()*6)+1;
 
-//     console.log(random);
+//create a function to roll a dice
+function rolladice(){
+    const random = Math.floor(Math.random()*6)+1;
 
-// }
+    console.log(random);
 
-// //print multiplication table of a nnumber 
-// function table(n){
-//     let e=n*10;
-//     for(let i=n;i<=e;i=i+n){
-//         console.log(i);
-//     }
-// }
+}
+
+//print multiplication table of a nnumber 
+function table(n){
+    let e=n*10;
+    for(let i=n;i<=e;i=i+n){
+        console.log(i);
+    }
+}
 
 // //counbt numvber from 1 to n
 // function count(n){
