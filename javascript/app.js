@@ -56,6 +56,7 @@ function rolladice(){
 
 }
 
+
 //print multiplication table of a nnumber 
 function table(n){
     let e=n*10;
@@ -64,38 +65,39 @@ function table(n){
     }
 }
 
-// //counbt numvber from 1 to n
-// function count(n){
-//     let count=0;
-//     for(let i=1;i<=n;i++){
-//         count=count+i;
+
+//counbt numvber from 1 to n
+function count(n){
+    let count=0;
+    for(let i=1;i<=n;i++){
+        count=count+i;
         
-//     }
-//     return count;
-// }
+    }
+    return count;
+}
 
 
 // rolladice();
 // table(5);
 
 
-// const student={
-//     name: "yash",
-//     eng: 90,
-//     math: 78,
-//     phy: 37,
-//     getavg(){
-//         console.log(this);
-//         let avg = (this.eng + this.math + this.phy)/3;
-//         console.log(avg);
-//     }
+const student={
+    name: "yash",
+    eng: 90,
+    math: 78,
+    phy: 37,
+    getavg(){
+        console.log(this);
+        let avg = (this.eng + this.math + this.phy)/3;
+        console.log(avg);
+    }
 
-// }
-//  function getavg(){
-//     console.log(this);
+}
+ function getavg(){
+    console.log(this);
     
     
-// }
+}
 
 // console.log("hey guys");
 // // setTimeout(() =>{
