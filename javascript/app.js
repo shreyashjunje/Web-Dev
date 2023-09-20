@@ -73,7 +73,10 @@ function count(n){
         count=count+i;
         
     }
+    
     return count;
+
+
 }
 
 
