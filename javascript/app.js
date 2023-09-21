@@ -102,17 +102,17 @@ const student={
     
 }
 
-// console.log("hey guys");
-// // setTimeout(() =>{
-// //     console.log("channel");
-// // },9000);
+console.log("hey guys");
+// setTimeout(() =>{
+//     console.log("channel");
+// },9000);
 
-// let id = setInterval(() => {
-//     console.log("hi");
-// },2000);
+let id = setInterval(() => {
+    console.log("hi");
+},2000);
 
-// let id2 = setInterval(() => {
-//     console.log("guys");
-// },2000);
+let id2 = setInterval(() => {
+    console.log("guys");
+},2000);
 
 
