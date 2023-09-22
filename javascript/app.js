@@ -66,6 +66,8 @@ function table(n){
 }
 
 
+
+
 //counbt numvber from 1 to n
 function count(n){
     let count=0;
