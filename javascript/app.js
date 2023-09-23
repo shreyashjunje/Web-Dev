@@ -59,7 +59,7 @@ function rolladice(){
 
 //print multiplication table of a nnumber 
 function table(n){
-    let e=n*10;
+    let e=n*20;
     for(let i=n;i<=e;i=i+n){
         console.log(i);
     }
