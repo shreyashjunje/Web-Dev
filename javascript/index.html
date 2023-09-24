@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>javascript</title>
-    <script src="app.js"></script>
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="http://anijs.github.io/lib/anicollection/anicollection.css"
+    />
+  </head>
+  <body>
     <h1>javascript!</h1>
-    
-</body>
+    <div data-anijs="if: mouseover, do: bounceInLeft animated">hiiiii</div>
+
+    <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script>
+
+    <!-- Include to use $addClass, $toggleClass or $removeClass -->
+    <script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+
+    <script src="anijs-min.js"></script>
+    <script src="app.js"></script>
+  </body>
 </html>
