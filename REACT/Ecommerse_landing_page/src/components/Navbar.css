@@ -1,0 +1,20 @@
+.Navbar_main_div{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black; */
+    
+    
+}
+
+
+.anchor_div a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: black;
+    font-weight: 400;
+    font-size: 17px;
+    
+}

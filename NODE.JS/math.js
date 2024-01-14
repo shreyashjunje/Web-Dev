@@ -1,12 +1,3 @@
-const sum=(a,b)=>a+b;
-const sub=(a,b)=>a-b;
-const mult=(a,b)=>a*b;
-const div=(a,b)=>a/b;
-
-let obj={
-    sum:sum,
-    sub:sub,
-    mult:mult,
-    div:div
+function myfunction(){
+    console.log(this);
 }
-module.exports=obj;

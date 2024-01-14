@@ -1,0 +1,10 @@
+img{
+    width: 500px;
+    height: 500px;
+    margin-top: 60px;
+}
+
+.rightside_div{
+    display: flex;
+    align-items: center;
+}

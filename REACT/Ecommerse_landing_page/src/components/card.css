@@ -1,0 +1,14 @@
+    .card_div img{
+        height: 350px;
+        width: 250px;
+    }
+    .card_div div{
+        display: inline-block;
+        margin: 0px 10px;
+        /* align-items: center; */
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 15px;
+    }
+
+    
