@@ -1,0 +1,16 @@
+.featured_card img{
+    width: 300px;
+    height: 400px;
+}
+.featured_card{
+    margin: 0px 20px;
+    line-height: 15px;
+}
+.featured_card h3{
+    font-weight: 100;
+    font-size: 0.9rem       ;
+}
+.featured_card h2{
+    font-family: 'Playfair Display', serif;
+
+}

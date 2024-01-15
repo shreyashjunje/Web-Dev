@@ -1,0 +1,18 @@
+.footer_main_div{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer_main_div ul li{
+    list-style: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    line-height: 30px;
+
+}
+.footer_main_div h4{
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,38 @@
+.subscribe_main_div div{
+    display: inline-flexbox;
+    justify-content: center;
+    line-height: 15px;
+    /* flex-direction: column; */
+    font-family: 'Playfair Display', serif;
+    /* font-size: 20px; */
+
+}
+.input_section button{
+    height: 35px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+.input_section input{
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+    
+
+}
+.input_section{
+    /* display: flex; */
+    /* flex-direction: row; */
+    margin: 30px;
+}
+
+.subscribe_main_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

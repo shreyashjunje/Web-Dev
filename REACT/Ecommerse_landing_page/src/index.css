@@ -3,9 +3,11 @@
   line-height: 1.5;
   font-weight: 400;
   color: black;
+  
+  font-family: 'Playfair Display', serif;
+
   font-family: 'Montserrat', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 
   /* color-scheme: light dark; */
   /* color: rgba(255, 255, 255, 0.87); */
