@@ -30,13 +30,14 @@ function App() {
       <div id="quote_div_page">
         <QuoteDiv/>
       </div>
-
       <div id="featured_page">
+
+  
           <FeaturedDiv/>
       </div>
 
       <div id="blog_div_page">
-        
+
         <BlogDiv/>
       </div>
 
