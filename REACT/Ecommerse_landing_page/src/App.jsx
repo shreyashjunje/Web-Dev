@@ -36,6 +36,7 @@ function App() {
       </div>
 
       <div id="blog_div_page">
+        
         <BlogDiv/>
       </div>
 

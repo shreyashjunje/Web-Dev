@@ -18,10 +18,7 @@ function LikeBtn(){
                 isliked?(<i class="fa-solid fa-heart" style={likedStyle} ></i> )
                    
                 :( <i class="fa-regular fa-heart" ></i>)
-                   
-
-                
-                
+    
                
             }
           </p>
