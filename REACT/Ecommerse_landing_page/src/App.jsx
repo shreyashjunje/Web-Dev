@@ -36,6 +36,7 @@ function App() {
           <FeaturedDiv/>
       </div>
 
+
       <div id="blog_div_page">
 
         <BlogDiv/>
