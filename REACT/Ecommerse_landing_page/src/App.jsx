@@ -10,7 +10,6 @@ import Footer from "./components/footer.jsx"
 import './App.css'
 
 function App() {
-
   return (
      <div id="main_div_page">
 
