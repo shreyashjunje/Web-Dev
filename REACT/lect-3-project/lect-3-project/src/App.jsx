@@ -1,12 +1,16 @@
+import Data from ",/data.jsx";
+import { useState } from "react";
 
-import './App.css'
+function App(){
 
-function App() {
-  
+  const [tours,setTours]=useState(Data);
 
   return (
-    
+    <div>
+      <Tours tours={tours}/>
+    </div>
   )
 }
 
-export default App
+
+export default App;
