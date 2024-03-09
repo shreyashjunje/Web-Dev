@@ -14,9 +14,11 @@ function TodoList() {
   };
 
   let deleteTodo = (todo) => {
-    let modifiedArr = todos.filter((each) => each !== todo);
+    let modifiedArr = todos.filter((each) => {
+      each !== todo;
+    });
 
-    setTodos(modifiedArr);
+    settodos(modifiedArr);
   };
 
   return (
@@ -28,6 +30,7 @@ function TodoList() {
       />
       <button onClick={addTaskhandler}>Add Task</button>
       <h4>TODO LIST</h4>
+
       <ul>
         {todos.map((todo, index) => {
           return (
