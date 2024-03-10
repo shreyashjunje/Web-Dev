@@ -4,7 +4,9 @@ import { toast } from "react-toastify";
 
 export default function Card(props) {
   let course = props.course;
+  
   let likedCourses = props.likedCourses;
+
   let setLikedCourses = props.setLikedCourses;
 
   function clickhandler() {}
