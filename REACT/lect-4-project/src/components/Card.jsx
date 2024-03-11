@@ -8,6 +8,8 @@ export default function Card(props) {
 
   let setLikedCourses = props.setLikedCourses;
 
+  
+
   function clickhandler() {}
   return (
     <div className="w-[300px] bg-blue-900 rounded-md overflow-hidden bg-opacity-800 m-4 p-2">
