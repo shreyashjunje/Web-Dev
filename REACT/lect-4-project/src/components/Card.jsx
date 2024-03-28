@@ -17,6 +17,11 @@ export default function Card(props) {
         <button onClick={clickhandler}>
           <FcLike fontSize="1.75rem" />
         </button>
+
+
+
+
+        
       </div>
       <div>
         <h3 className="text-white text-lg">{course.title}</h3>
