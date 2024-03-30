@@ -16,12 +16,7 @@ export default function Card(props) {
       <div className="bg-white rounded-full absolute">
         <button onClick={clickhandler}>
           <FcLike fontSize="1.75rem" />
-        </button>
-
-
-
-
-        
+        </button
       </div>
       <div>
         <h3 className="text-white text-lg">{course.title}</h3>
