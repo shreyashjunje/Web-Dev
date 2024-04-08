@@ -1,0 +1,31 @@
+body{
+  height: 100vh;
+  width: 100%;
+  /* margin: auto; */
+}
+.main_div form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  
+}
+.email_div{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+ 
+}
+
+.main_div p {
+  margin: 0%;
+  
+}
+
+.main_div div{
+  margin-left: 5px;
+}
+
+button{
+  margin: 50px;
+
+}
