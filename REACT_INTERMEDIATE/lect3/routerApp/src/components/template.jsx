@@ -4,7 +4,7 @@ import SignupForm from './SignupForm.jsx'
 import FrameImg from "../../public/frame.png"
 
 
- const Template = ({title,desc1,desc2,image,formtype,setIslogin}) => {
+ const Template = ({setIsLogin,title,desc1,desc2,image,formtype}) => {
   return (
     <div>
 
@@ -16,7 +16,7 @@ import FrameImg from "../../public/frame.png"
            </p>
       
 
-        {formtype==="signup"?(<SignupForm setIslogin={setIslogin}/>):(<LoginForm setIslogin={setIslogin}/>)}
+        {formtype==="signup"?(<SignupForm setIsLogin={setIsLogin} />):(<LoginForm setIsLogin={setIsLogin}/>)}
 
         <div>
             <div></div>

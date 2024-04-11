@@ -10,16 +10,16 @@ import './App.css'
 import { useState } from "react";
 
 function App() {
-  const [isLogin,setIsLogin]=useState(false);
+  const [IsLogin,setIsLogin]=useState(false);
 
   return(
     <div>
-      <Navbar isLogin={isLogin} setIsLogin={setIsLogin}/>
+      <Navbar IsLogin={IsLogin} setIsLogin={setIsLogin}/>
 
       <Routes>
             <Route path="/" element={<Home/>}></Route>
-            <Route path="/login" element={<Login/>}></Route>
-            <Route path="/signup" element={<SignUp/>}></Route>
+            <Route path="/login" element={<Login  setIsLogin={setIsLogin}/>}></Route>
+            <Route path="/signup" element={<SignUp  setIsLogin={setIsLogin}/>}></Route>
             <Route path="/dashboard" element={<Dashboard/>}></Route>
       </Routes>
     </div>

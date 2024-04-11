@@ -6,7 +6,8 @@ import {useNavigate} from "react-router-dom"
 
 
 
- const LoginForm = ({setIslogin}) => {
+ const LoginForm = ({setIsLogin}) => {
+    
 
     const[formData,setFormData]=useState({email:"",password:""})
     const[showPassword,setShowPassword]=useState(false)
@@ -23,8 +24,11 @@ import {useNavigate} from "react-router-dom"
 
     function submithandler(event){
         event.preventDefault();
-        setIslogin(true);
-        toast("LOgged in")
+       
+        // setIsLogin(true);
+        setIsLogin(true);
+
+        toast("Logged in")
         navigate("/dashboard")
         
         

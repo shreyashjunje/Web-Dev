@@ -5,8 +5,8 @@ import {toast} from "react-toastify"
 
  const Navbar = (props) => {
 
-  let IsLoggedIn=props.isLogin;
-  let setIsLoggedIn=props.setIsLoggedIn;
+  let isLogin=props.IsLogin;
+  let setIsLogin=props.setIsLogin;
 
   return (
     <div className='flex justify-evenly'>
@@ -41,7 +41,7 @@ import {toast} from "react-toastify"
 
         
         
-        { !IsLoggedIn && 
+        { !isLogin && 
           <Link to="./login">
             <button>
                Log in
@@ -49,17 +49,17 @@ import {toast} from "react-toastify"
           </Link>
         }
 
-        { !IsLoggedIn && 
+        { !isLogin && 
           <Link to="./signup">
             <button>
                Sign Up
             </button>
           </Link>
         }
-        { IsLoggedIn && 
+        { isLogin && 
           <Link to="./">
             <button onClick={()=>{
-              setIsLoggedIn(false);
+              setIsLogin(false);
               toast("Logged Out")
               
             }}>
@@ -67,7 +67,7 @@ import {toast} from "react-toastify"
             </button>
           </Link>
         }
-        {IsLoggedIn && 
+        {isLogin && 
           <Link to="./dashboard">
             <button>
                Dashboard
