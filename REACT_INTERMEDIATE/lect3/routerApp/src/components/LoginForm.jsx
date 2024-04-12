@@ -30,6 +30,9 @@ import {useNavigate} from "react-router-dom"
 
         toast("Logged in")
         navigate("/dashboard")
+
+        console.log("printing login data")
+        console.log(formData)
         
         
     }

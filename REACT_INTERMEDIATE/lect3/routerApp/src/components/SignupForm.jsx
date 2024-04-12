@@ -12,6 +12,8 @@ const SignupForm = ({ setIsLogin }) => {
     confirmPassword: '',
   });
   const [showPassword, setShowPassword] = useState(false);
+  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
+  const [accountType,setAccountType] = useState("student")
   let navigate=useNavigate();
 
   const changeHandler = (event) => {
@@ -33,8 +35,19 @@ const SignupForm = ({ setIsLogin }) => {
     let accountData={
             ...formData
     };
-    console.log(accountData);
+
+    
+    const finalData={
+      ...accountData,
+      accountType
+    }
+
+    console.log("printing final account data");
+    console.log(finalData)
     navigate("/dashboard")
+
+
+
 
     
     
@@ -44,8 +57,13 @@ const SignupForm = ({ setIsLogin }) => {
   return (
     <div>
       <div>
-        <button>Student</button>
-        <button>Instructor</button>
+        <button 
+        className={`${accountType==="student" ? "bg-black text-white" : "bg-black-900 text-white"}`}
+        onClick={()=>setAccountType("student")}>Student</button>
+        <button
+        className={`${accountType==="Instructor" ? "bg-black text-white" : "bg-black-900 text-white"}`}
+
+         onClick={()=>setAccountType("Instructor")}>Instructor</button>
       </div>
 
       <form onSubmit={submitHandler}>
@@ -83,9 +101,9 @@ const SignupForm = ({ setIsLogin }) => {
 
             <label>
               <p>Confirm Password<sup>*</sup></p>
-              <input type={showPassword ? "text" : "password"} name='confirmPassword' value={formData.confirmPassword} onChange={changeHandler} placeholder='Confirm password' required />
-              <span onClick={() => setShowPassword(prev => !prev)}>
-                {showPassword ? <RiEyeLine /> : <RiEyeCloseLine />}
+              <input type={showConfirmPassword ? "text" : "password"} name='confirmPassword' value={formData.confirmPassword} onChange={changeHandler} placeholder='Confirm password' required />
+              <span onClick={() => setShowConfirmPassword(prev => !prev)}>
+                {showConfirmPassword ? <RiEyeLine /> : <RiEyeCloseLine />}
               </span>
             </label>
           </div>

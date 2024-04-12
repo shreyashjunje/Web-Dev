@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Home = () => {
+const Home = ({IsLogin}) => {
   return (
     <div className='flex justify-center items-center'>
       Home
