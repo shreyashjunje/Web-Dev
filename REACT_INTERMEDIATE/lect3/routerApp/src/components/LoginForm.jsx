@@ -32,9 +32,7 @@ import {useNavigate} from "react-router-dom"
         navigate("/dashboard")
 
         console.log("printing login data")
-        console.log(formData)
-        
-        
+        console.log(formData);
     }
 
     return (
