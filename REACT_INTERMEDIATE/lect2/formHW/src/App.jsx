@@ -21,7 +21,7 @@ function App() {
   
 
   return (
-   <div className='main_div'>
+   <div className='main_div'> 
       <form onSubmit={submithandler}>
           <label htmlFor="Firstname" >First name</label>
           <input type="text" placeholder='shreyash' id='Firstname' name='Firstname' value={formData.Firstname} onChange={changehandler}/>
