@@ -17,7 +17,6 @@ function App() {
       }
     })
   }
-
   return (
    <div className='main_div'>
       <input type="text" placeholder='first name' onChange={changehandler} name="firstName" value={formData.firstName}/>
@@ -29,5 +28,8 @@ function App() {
    </div>
   )
 }
+
+
+
 
 export default App
