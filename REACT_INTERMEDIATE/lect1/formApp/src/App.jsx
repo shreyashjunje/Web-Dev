@@ -10,7 +10,6 @@ function App() {
     
 
     setFormData(prevFormData=>{
-      
       return{
         ...prevFormData,
         [name]: type==="checkbox" ? checked : value
